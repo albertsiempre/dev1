@@ -1,0 +1,57 @@
+<?php
+
+return array(
+    'default'     => 'fms',
+    'connections' => array(
+        'ams' => array(
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'AMS',
+            'username'  => 'root',
+            'password'  => '',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+        'qauth' => array(
+            'driver'    => 'mysql',
+            'host'      => '10.10.10.219',
+            'database'  => 'QAuth',
+            'username'  => 'devusr',
+            'password'  => 'passwordbuattest',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+        'fms' => array(
+            'driver'    => 'mysql',
+            'host'      => '10.10.10.219',
+            'database'  => 'fms',
+            'username'  => 'root',
+            'password'  => 'bamburuncingqeon',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+        'api' => array(
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'QData',
+            'username'  => 'root',
+            'password'  => '',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+        'session' => array(
+            'driver'    => 'mysql',
+            'host'      => '10.10.10.219',
+            'database'  => 'QSession',
+            'username'  => 'devusr',
+            'password'  => 'passwordbuattest',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_general_ci',
+            'prefix'    => '',
+        ),
+    ),
+);

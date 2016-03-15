@@ -1,0 +1,11 @@
+/bootstrap/compiled.php
+/app/storage/
+composer.phar
+composer.lock
+.env.local.php
+.env.php
+.DS_Store
+Thumbs.db
+/nbproject/private/
+/vendor
+/app/storage

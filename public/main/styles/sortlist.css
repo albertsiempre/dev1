@@ -1,0 +1,29 @@
+.sortable{
+    width: 400px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select : none;
+}
+
+.sortable li{
+    list-style: none;
+    border: 1px solid #CCC;
+    background: #F6F6F6;
+    margin: 5px;
+    padding: 5px;
+    height: 20px;
+}
+
+.sortable li.disabled {
+    opacity: 0.5;
+}
+
+.sortable li.highlight {
+    background: #FEE25F;
+}
+
+.sortable li.sortable-placeholder {
+    border: 1px dashed #CCC;
+    background: none;
+}
