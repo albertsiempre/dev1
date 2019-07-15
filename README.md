@@ -1,2 +1,2 @@
 # dev1
-Learning from doing
+Lorem Ipsum
